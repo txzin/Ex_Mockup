@@ -3,9 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MockUp Exercise</title>
+    <title>Elegant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: black;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .hero-images {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .hero-images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .testimonial {
+            padding: 40px 20px;
+        }
+        .faq {
+            padding: 40px 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+        .faq-item {
+            background-color: #222;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="logo">El Toro!</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">New Collection</a>
+            <a href="#">Gallery</a>
+            <a href="#">Delivery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Elegant</h1>
+        <div class="hero-images">
+            <img src="touro1.jpeg" alt="Fashion Image">
+            <img src="touro2.jpg" alt="Fashion Image">
+            <img src="touro3.jpg" alt="Fashion Image">
+            <img src="touro4.jpg" alt="Fashion Image">
+        </div>
+        <div class="buttons">
+            <button>See Catalog</button>
+            <button>Explore New Collection</button>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h2>We have already more than 12k clients</h2>
+    </section>
+
+    <section class="faq">
+        <h2>FAQ</h2>
+        <div class="faq-item">What payment methods do you accept?</div>
+        <div class="faq-item">How long does shipping take?</div>
+        <div class="faq-item">What is your return policy?</div>
+        <div class="faq-item">How do I track my order?</div>
+    </section>
 </body>
 </html>
